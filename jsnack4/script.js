@@ -12,7 +12,7 @@ const guestsList = [
 const guestName = prompt('What\'s your name?')
 hasAccess = false;
 
-/* for (let i = 0; i < guestsList.length; i++) {
+for (let i = 0; i < guestsList.length; i++) {
 
     if (guestName === guestsList[i]) {
         console.log('You can participate');
@@ -20,7 +20,7 @@ hasAccess = false;
         console.log('You\'re not allowed to participate')
     }
 }
- */
+
 let x = 0
 while (x < guestsList.length) {
     if (guestName === guestsList[x]) {
